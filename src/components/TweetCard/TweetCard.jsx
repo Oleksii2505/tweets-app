@@ -9,7 +9,7 @@ import {
     Button,
   } from './TweetCard.styled';
 import { useState } from 'react';
-import logo from '../../images/Logo.png'
+import logo from '../../images/logo.png'
 
 export const TweetCard = ({ item, followings, isFollowing }) => {
     const { tweets, followers, user, avatar, id } = item;
