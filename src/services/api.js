@@ -15,15 +15,6 @@ export async function getUsers(page) {
     }
 }
 
-// export async function fetchAllUsers() {
-//     try {
-//       const res = await axios.get('/users');
-//       return res.data;
-//     } catch (error) {
-//       console.error(error);
-//     }
-// }
-
 export async function updateUsers(id, followers) {
     try {
       const res = await axios.put(`/users/${id}`, followers);
