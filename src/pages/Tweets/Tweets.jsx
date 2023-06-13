@@ -22,12 +22,14 @@ const Tweets = () => {
   const [followings, setFollowings] = useLocalStorage();
   const [isLoading, setIsLoading] = useState(false);
   const [selectedOption, setSelectedOption] = useState(filterValues.all);
+  
 
   let filteredUsers = filterUsers(users, followings, selectedOption.value);
 
   useEffect(() => {
     const fetchUsers = async () => {
       setIsLoading(true);
+      
       const newUsers = await getUsers(page);
 
       if (page === 1) {

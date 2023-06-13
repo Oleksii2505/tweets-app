@@ -7,6 +7,6 @@ export const CardsList = styled.ul`
   list-style: none;
   height: 100%;
   justify-content: center;
-  gap: 46px;
+  gap: 48px;
   padding: 0;
 `;

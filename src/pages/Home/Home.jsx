@@ -3,7 +3,7 @@ import { HomeContainer, Title } from "./Home.styled";
 const Home = () => {
     return (
     <HomeContainer>
-      <Title>Your tweets here!</Title>
+      <Title>Awesome tweets app</Title>
     </HomeContainer>
     )
 };

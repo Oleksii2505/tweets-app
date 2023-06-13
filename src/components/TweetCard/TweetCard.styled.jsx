@@ -2,11 +2,10 @@ import styled from 'styled-components';
 import bgImage from '../../images/bgimg.png';
 
 export const CardItem = styled.li`
-  font-family: 'Montserrat', sans-serif;
   width: 380px;
   height: 460px;
   position: relative;
-  padding: 20px 20px 36px 20px;
+  padding: 20px 20px 0 20px;
   background: linear-gradient(
     114.99deg,
     #471ca9 -0.99%,
@@ -34,13 +33,13 @@ export const ItemContainer = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding-top: 66px;
+  padding-top: 70px;
   ::before {
     content: '';
     position: absolute;
     left: -20px;
     top: -4px;
-    width: 380px;
+    width: 420px;
     height: 8px;
     background: #ebd8ff;
     box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06),

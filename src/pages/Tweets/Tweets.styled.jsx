@@ -7,13 +7,12 @@ export const Button = styled(Link)`
     height:50px;
     text-align: center;
   border: 0 solid #e2e8f0;
-  border-radius: 1.5rem;
+  border-radius: 15px;
   box-sizing: border-box;
   color: #0d172a;
   cursor: pointer;
   display: inline-block;
-  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1.1rem;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1;
   padding: 1rem 1.6rem;
@@ -22,11 +21,8 @@ export const Button = styled(Link)`
   text-decoration-thickness: auto;
   transition: all .1s cubic-bezier(.4, 0, .2, 1);
   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
   :hover{
-  background-color: #1e293b;
+  background-color: #4321b0;
   color: #fff;
   :disabled {
     background-color: rgb(83 76 76 / 22%);
